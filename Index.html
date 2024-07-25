@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akeo - A Keyanna Edwards Original</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header, footer {
+            background-color: #001f3f;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #001f3f;
+        }
+        .about, .portfolio, .shop, .booking {
+            margin-bottom: 50px;
+        }
+        .section-title {
+            border-bottom: 2px solid #ffcccb;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .grid-item {
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            background-color: #fff;
+        }
+        .grid-item img {
+            width: 100%;
+            height: auto;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #001f3f;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Akeo - A Keyanna Edwards Original</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#shop">Shop</a>
+            <a href="#booking">Book Me</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I'm Keyanna Edwards, the face and creative mind behind Akeo - A Keyanna Edwards Original. I'm a model and entrepreneur with a passion for fashion and beauty. Explore my portfolio, shop my exclusive merchandise, or book me for your next campaign or makeup session.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="grid">
+                <div class="grid-item"><img src="path/to/image1.jpg" alt="Portfolio Image 1"></div>
+                <div class="grid-item"><img src="path/to/image2.jpg" alt="Portfolio Image 2"></div>
+                <div class="grid-item"><img src="path/to/image3.jpg" alt="Portfolio Image 3"></div>
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+
+        <section id="shop" class="shop">
+            <h2 class="section-title">Shop</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="path/to/tanktop1.jpg" alt="Tank Top 1">
+                    <p>Tank Top 1</p>
+                    <p>$25.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="grid-item">
+                    <img src="path/to/tanktop2.jpg" alt="Tank Top 2">
+                    <p>Tank Top 2</p>
+                    <p>$25.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="grid-item">
+                    <img src="path/to/tanktop3.jpg" alt="Tank Top 3">
+                    <p>Tank Top 3</p>
+                    <p>$25.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <section id="booking" class="booking">
+            <h2 class="section-title">Book Me</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Book for Makeup</h3>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="date" name="date" placeholder="Preferred Date" required>
+                        <textarea name="details" placeholder="Details" rows="5" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="grid-item">
+                    <h3>Book for Modeling</h3>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="date" name="date" placeholder="Preferred Date" required>
+                        <textarea name="details" placeholder="Details" rows="5" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Akeo - A Keyanna Edwards Original. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
